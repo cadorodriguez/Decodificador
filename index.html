@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Codificador de Texto</title>
+</head>
+<body>
+
+	<main>
+
+		<header class="area-cabecalho">
+			<img src="img/logo.jpg" class="logo">
+		</header>
+
+		<div class="container">
+			<div class="enviar">
+				<textarea id="enviar-texto" placeholder="Digite seu texto aqui"></textarea>
+				<h4 class="atencao"><small> ⚠️ Atenção apenas letras minúsculas e sem acentos.</small></h4>
+			</div>
+			<div id="receber-texto" class="receber">
+				<img src="img/busca.png">				
+			</div>			
+		</div>
+
+		<div class="button">
+			<div class="caixa-button">
+				<button onclick="criptografar()" class="btn-cript">Criptografar</button>
+				<button onclick="descriptografar()" class="btn-descript">Descriptografar</button>
+			</div>
+		</div>
+
+	</main>
+
+	<footer class="rodape">
+		<h4>© Copyright - Codificador de Texto Alura</h4> 
+		<h4>Desenvolvido por Ricardo Rodriguez</h4>		
+	</footer>
+
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+body{
+	font-family: 'Inter', sans-serif;
+	background: #F3F5FC;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.logo{
+
+	width: 75px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.container{
+	display: flex;
+}
+
+.enviar{
+
+	flex: 1 1 auto;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.9;
+	font-weight: 400px;
+}
+
+.receber{
+
+	flex: 1 1 auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#enviar-texto{
+
+	width: 350px;
+    height: 405px;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.enviar textarea::placeholder {
+	color: #0A3871;
+	font-size: 1.4em;
+	font-weight: 400px;
+	text-align: justify;
+
+} 
+
+.enviar h4 {
+
+	text-align: center;
+	color: #c0c0c0;
+}
+
+.btn-cript{
+	background: #0A3871;
+    border-radius: 24px;
+    border: none;
+    width: 19%;
+    height: 47px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.btn-cript:hover{
+	background: #4169E1;
+	font-size: 0.8em;
+	transition: 200ms;
+}
+
+.btn-descript{
+	background: #808080;
+    border-radius: 24px;
+    border: none;
+    width: 19%;
+    height: 47px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.btn-descript:hover{
+	background: #A9A9A9;
+	font-size: 0.8em;
+	transition: 200ms;
+}
+
+.rodape{
+
+	font-size: 0.7em;
+	text-align: center;
+	padding: 30px;
+	margin-top: 20px;
+	clear: both;
+	vertical-align: baseline;
+	color: #0A3871;
+}
