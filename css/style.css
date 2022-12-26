@@ -31,6 +31,11 @@ body{
 
 }
 
+.busca {
+	width: 450;
+	height: auto;
+}
+
 .receber{
 
 	flex: 1 1 auto;
@@ -40,7 +45,7 @@ body{
 
 #enviar-texto{
 
-	width: 350px;
+	width: 450px;
     height: 405px;
     background: transparent;
     box-shadow: none;
@@ -53,12 +58,32 @@ body{
     margin-right: auto;
 }
 
+
+#envia-texto{
+
+	width: 450px;
+	flex: 1 1 auto;
+    height: 405px;
+    background: white;
+    box-shadow: none;
+    border: solid #0A3871 1px;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: 10%;
+    color:#0A3871 ;
+    font-size: 1.4em;
+    font-weight: 400px;
+    text-align: justify;
+    }
+
 .enviar textarea::placeholder {
 	color: #0A3871;
 	font-size: 1.4em;
 	font-weight: 400px;
 	text-align: justify;
-
 } 
 
 .enviar h4 {
@@ -72,16 +97,38 @@ body{
 	margin-left: -30%;
 }
 
+.btn-copiar{
+
+	background: #120a8f;
+	border: #0A3871 solid 1px ;
+	border-radius: 10px;
+	width: 11%;
+	height: 47px;
+	color: white;
+	text-align: center;
+    margin-top: 8px;
+    margin-left: 48%;
+    cursor: pointer;
+}
+
+.btn-copiar:hover{
+	background: white;
+	color: #0a3871;
+	font-size: 0.8em;
+	transition: 200ms;
+}
+
+	
 .btn-cript{
 	background: #0A3871;
     border-radius: 24px;
     border: none;
-    width: 19%;
+    width: 17%;
     height: 47px;
     color: #FFFFFF;
     text-align: center;
     margin-top: 3px;
-    margin-left: 5%;
+    margin-left: 2%;
     cursor: pointer;
 }
 
@@ -89,18 +136,19 @@ body{
 	background: #4169E1;
 	font-size: 0.8em;
 	transition: 200ms;
+	
 }
 
 .btn-descript{
 	background: #808080;
     border-radius: 24px;
     border: none;
-    width: 19%;
+    width: 17%;
     height: 47px;
     color: #FFFFFF;
     text-align: center;
     margin-top: 3px;
-    margin-left: 2%;
+    margin-left: 1%;
     cursor: pointer;
 }
 
