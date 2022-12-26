@@ -168,3 +168,89 @@ body{
 	vertical-align: baseline;
 	color: #0A3871;
 }
+
+/** media **/
+
+@media (max-width: 767px){
+
+.logo{
+
+	width: 50px;
+    margin-top: 20px;
+    margin-left: -75%;
+    margin-right: auto;
+}
+
+.container{
+	display: block;
+}
+
+.busca, .receber {
+	display: block;
+}
+
+.enviar{
+
+	margin-left: 15%;
+	margin-right: auto;
+	font-weight: 400px;
+
+}
+
+.enviar h4 {
+
+	text-align: center;
+	margin-left: 15%;
+	margin-right: auto;
+	color: #c0c0c0;
+	font-size: 0.9em;
+	margin-bottom: 8px;
+	padding: 1px;
+}
+
+.receber{
+
+	margin-left: 30%;
+	margin-right: auto;
+}
+
+.caixa-button{
+
+	margin-left: 15%;
+	margin-bottom: 10px;
+	display: inline;
+}
+
+.btn-cript, .btn-descript{
+	width: 30%;
+    height: 47px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.rodape{
+
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 40%;
+	margin-right: auto;
+	margin-bottom: 20px;
+	font-size: 0.5;
+
+} 
+
+.btn-copiar{
+
+	border-radius: 10px;
+	width: 8%;
+	height: 47px;
+	color: white;
+	text-align: center;
+    margin-top: 8px;
+    margin-left: 48%;
+    cursor: pointer;
+}
+}
