@@ -1,6 +1,7 @@
 body{
 	font-family: 'Inter', sans-serif;
 	background: #F3F5FC;
+	text-align: center;
 }
 
 *{
@@ -11,8 +12,9 @@ body{
 .logo{
 
 	width: 75px;
-	margin-top: 20px;
-	margin-left: 30px;
+    margin-top: 20px;
+    margin-left: -81%;
+    margin-right: auto;
 }
 
 .container{
@@ -26,6 +28,7 @@ body{
 	margin-right: auto;
 	font-size: 1.9;
 	font-weight: 400px;
+
 }
 
 .receber{
@@ -62,6 +65,11 @@ body{
 
 	text-align: center;
 	color: #c0c0c0;
+}
+
+.caixa-button{
+
+	margin-left: -30%;
 }
 
 .btn-cript{
